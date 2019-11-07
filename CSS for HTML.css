@@ -1,0 +1,62 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+#content{
+    /*Keret beállítása*/
+    border: 2px dotted #986;
+    /*méretezés*/
+    min-height: 500px;
+    width: 98%;
+    /*margók beállítása*/
+    margin: auto;
+    padding: 10px;
+    
+    display: relativ
+
+}
+.div{
+    /*méretezés*/
+    width: 300px;
+    height: 300px;
+    /*margók beállítása*/
+    margin: 5px;
+    /*Keret beállítása*/
+    border: 2px solid #986;
+    /*Pozícionálás*/
+    /*static (default)
+    *relative
+    *absolute
+    *fixed
+    *inhreit
+    */
+
+    position: absolute;
+}
+.red{
+    background-color: red;
+    left: 600px;
+    top: 50px;
+}
+.blue{
+    background-color: blue;
+    left: 600px;
+    top: 380px;
+}
+.gray{
+    background-color: gray;
+    top: 400px;
+    left: 903px;
+}
+.magenta{
+    background-color: magenta;
+    left: 700px;
+    position: fixed;
+}
+pre{
+    font-size: 20px;
+    line-height: 30px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
